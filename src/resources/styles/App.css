@@ -1,0 +1,51 @@
+body {
+  background: #F6F6F0;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+}
+
+p {
+ margin: 2px 
+}
+
+.feedData, .filtersPane {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+}
+
+.feedData {
+  height: 96%;
+}
+
+.feedData .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: blue;
+}
+.feedImg {
+  width: 240px;
+  height: 240px;
+  background-color: #F6F6F0;
+}
+
+.filtersPane .paneTitle {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+.filtersPane button {
+  margin: 5px;
+  color: black;
+  background-color: lightgreen;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+}
