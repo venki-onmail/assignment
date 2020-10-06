@@ -70,19 +70,19 @@ class App extends React.Component {
   }
 
   addFeeds(){
-    // this.FeedApi.getFeeds().then((data) => {
-    //   console.log("Feed got is: ", data)
-    //   this.setState({
-    //     feeds: data,
-    //     filteredFeed: data
-    //   });
-    // });
-    const data = this.FeedApi.getStaticFeeds()
-    console.log("feeds: ", data)
-    this.setState( {
-      feeds: data,
-      filteredFeed: data
-    })
+    this.FeedApi.getFeeds().then((data) => {
+      console.log("Feed got is: ", data)
+      this.setState({
+        feeds: data,
+        filteredFeed: data
+      });
+    });
+    // const data = this.FeedApi.getStaticFeeds()
+    // console.log("feeds: ", data)
+    // this.setState( {
+    //   feeds: data,
+    //   filteredFeed: data
+    // })
   }
 
   componentDidMount() {
